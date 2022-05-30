@@ -1,0 +1,23 @@
+#todo-list {
+    margin: 1em;
+
+    row {
+        padding: 0.5em;
+    }
+}
+
+box > .hover {
+    opacity: 0;
+}
+
+box:hover > .hover {
+    opacity: 1;
+}
+
+.todo-item entry {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.todo-item.done text {
+    text-decoration: line-through;
+}

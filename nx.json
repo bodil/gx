@@ -1,0 +1,51 @@
+{
+    "$schema": "./node_modules/nx/schemas/nx-schema.json",
+    "npmScope": "gx",
+    "tasksRunnerOptions": {
+        "default": {
+            "runner": "nx/tasks-runners/default",
+            "options": {
+                "cacheableOperations": [
+                    "build"
+                ]
+            }
+        }
+    },
+    "implicitDependencies": {
+        "package.json": {
+            "dependencies": "*",
+            "devDependencies": "*"
+        },
+        "tsconfig.json": "*"
+    },
+    "namedInputs": {
+        "sources": [
+            "{projectRoot}/**/*",
+            "!{projectRoot}/test/**/*",
+            "{projectRoot}/tsconfig.json"
+        ],
+        "tests": [
+            "{projectRoot}/test/**/*",
+            "{projectRoot}/tsconfig.test.json"
+        ]
+    },
+    "targetDefaults": {
+        "build": {
+            "inputs": [
+                "sources"
+            ],
+            "dependsOn": [
+                "^build"
+            ]
+        },
+        "test": {
+            "inputs": [
+                "tests"
+            ],
+            "dependsOn": [
+                "build",
+                "^build"
+            ]
+        }
+    }
+}

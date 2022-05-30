@@ -1,0 +1,23 @@
+{
+    "name": "@gx/babel-plugin-gx",
+    "version": "1.0.0",
+    "description": "JSX compiler for GX",
+    "license": "LGPL-3.0+",
+    "main": "out/index.cjs",
+    "type": "module",
+    "scripts": {
+        "clean": "rm -rf out",
+        "build": "tsc -p tsconfig.json",
+        "check": "tsc -p tsconfig.json --noEmit"
+    },
+    "author": {
+        "name": "Bodil Stokke",
+        "email": "bodil@bodil.org"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.13",
+        "@babel/plugin-syntax-jsx": "^7.18.6",
+        "@types/babel__core": "^7.1.19",
+        "typescript": "^4.7.4"
+    }
+}

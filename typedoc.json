@@ -1,0 +1,15 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "out": "./doc",
+    "entryPoints": [
+        "packages/core",
+        "packages/test"
+    ],
+    "entryPointStrategy": "packages",
+    "excludeNotDocumented": false,
+    "excludeInternal": true,
+    "theme": "hierarchy",
+    "readme": "none",
+    "name": "Gx",
+    "includeVersion": true
+}

@@ -1,0 +1,15 @@
+list {
+    padding: 1em;
+
+    row {
+        margin-bottom: 1em;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    box.card {
+        padding: 1em;
+    }
+}

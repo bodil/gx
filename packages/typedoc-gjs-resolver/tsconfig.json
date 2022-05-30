@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "isolatedModules": true,
+        "outDir": "out",
+        "noEmit": false
+    },
+    "include": ["src/**.ts", "src/index.cts"]
+}

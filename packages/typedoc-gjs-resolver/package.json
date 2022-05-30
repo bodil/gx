@@ -1,0 +1,20 @@
+{
+    "name": "@gx/typedoc-plugin-gjs-resolver",
+    "version": "1.0.0",
+    "description": "Resolves Gjs API references to the online Gjs docs.",
+    "license": "GPL-3.0+",
+    "type": "commonjs",
+    "keywords": [
+        "typedoc-plugin"
+    ],
+    "main": "out/index.cjs",
+    "scripts": {
+        "clean": "rm -rf out",
+        "build": "tsc",
+        "check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "typedoc": "^0.23.10",
+        "typescript": "^4.7.4"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "environments": [
+        "gjs"
+    ],
+    "outdir": ".",
+    "moduleType": "esm",
+    "useNamespace": true,
+    "modules": [
+        "GObject-2.0",
+        "GLib-2.0",
+        "Gio-2.0",
+        "Gtk-4.0",
+        "Adw-1",
+        "Soup-3.0",
+        "Gst-1.0",
+        "WebKit2-5.0",
+        "Vte-3.91"
+    ]
+}

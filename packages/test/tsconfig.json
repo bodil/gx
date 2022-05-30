@@ -1,0 +1,7 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "types": ["@gx/gi/Gjs/index"]
+    },
+    "include": ["**/*.ts", "**/*.tsx", "../core/sourcemap.ts"]
+}
