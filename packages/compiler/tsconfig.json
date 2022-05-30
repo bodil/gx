@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "declaration": true,
+        "sourceMap": true,
+        "lib": [
+            "ES2022",
+            "DOM"
+        ],
+        "types": [],
+        "rootDir": "./src",
+        "outDir": "./out",
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/index.cts",
+    ],
+    "exclude": [
+        "node_modules/@types/**"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "types": [
+            "@gx/gi/Gjs/index"
+        ],
+        "rootDir": "./src",
+        "outDir": "./out",
+        "sourceMap": true,
+        "declaration": true,
+    },
+    "include": [
+        "src/**.ts",
+        "src/**.tsx"
+    ]
+}

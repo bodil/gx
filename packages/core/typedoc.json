@@ -1,0 +1,20 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": [
+        "./src/index.ts",
+        "./@types/Gjs/Gjs.d.ts",
+        "./@types/Gjs/GObject-2.0.d.ts",
+        "./@types/Gjs/GLib-2.0.d.ts",
+        "./@types/Gjs/Gio-2.0.d.ts",
+        "./@types/Gjs/Gtk-4.0.d.ts",
+        "./@types/Gjs/Adw-1.d.ts"
+    ],
+    "externalPattern": [
+        "./@types/**"
+    ],
+    "out": "./out/docs",
+    "tsconfig": "./tsconfig.json",
+    "excludeNotDocumented": false,
+    "readme": "none",
+    "includeVersion": true
+}

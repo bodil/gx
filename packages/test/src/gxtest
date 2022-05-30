@@ -1,0 +1,5 @@
+#!/bin/sh
+SCRIPT=$(readlink -f "$0")
+SCRIPTPATH=$(dirname "$SCRIPT")
+BINPATH="$SCRIPTPATH/bin.js"
+gjs -m "$BINPATH" "$@"

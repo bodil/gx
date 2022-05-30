@@ -1,0 +1,26 @@
+{
+    "name": "@gx/core",
+    "version": "1.0.0",
+    "description": "GX",
+    "license": "LGPL-3.0+",
+    "main": "out/index.js",
+    "type": "module",
+    "scripts": {
+        "clean": "rm -rf out",
+        "doc": "typedoc",
+        "build": "tsc -p tsconfig.json"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Bodil Stokke",
+        "email": "bodil@bodil.org"
+    },
+    "devDependencies": {
+        "typedoc": "^0.23.7",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "@gx/gi": "workspace:1.0.0",
+        "ansi-colors": "^4.1.3"
+    }
+}

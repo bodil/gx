@@ -1,0 +1,29 @@
+{
+    "name": "number-goes-up",
+    "version": "1.0.0",
+    "description": "A GX test app.",
+    "license": "GPL-3.0+",
+    "main": "out/bin.js",
+    "scripts": {
+        "clean": "rm -rf out",
+        "build": "rollup -c",
+        "start:exec": "gjs -m ./out/bin.js",
+        "start": "run-s build start:exec"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.6",
+        "@gx/babel-plugin-gx": "workspace:1.0.0",
+        "@rollup/plugin-babel": "^5.3.1",
+        "@rollup/plugin-node-resolve": "^13.3.0",
+        "@rollup/plugin-typescript": "^8.3.3",
+        "npm-run-all": "^4.1.5",
+        "rollup": "^2.77.0",
+        "rollup-plugin-preserve-shebang": "^1.0.1",
+        "rollup-plugin-terser": "^7.0.2",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "@gx/core": "workspace:1.0.0",
+        "@gx/gi": "workspace:1.0.0"
+    }
+}

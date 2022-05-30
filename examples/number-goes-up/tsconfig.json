@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "moduleResolution": "Node",
+        "lib": [
+            "ES2022",
+            "DOM"
+        ],
+        "types": [
+            "@gx/gi/Gjs/index"
+        ],
+        "jsx": "preserve",
+        "strict": true,
+        "noEmit": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": [
+        "src/**.ts",
+        "src/**.tsx"
+    ],
+    "exclude": [
+        "node_modules/@types/**"
+    ]
+}

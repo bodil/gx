@@ -1,0 +1,12 @@
+{
+    "environments": [
+        "gjs"
+    ],
+    "outdir": ".",
+    "moduleType": "esm",
+    "useNamespace": true,
+    "modules": [
+        "Gtk-4.0",
+        "Adw-1"
+    ]
+}
